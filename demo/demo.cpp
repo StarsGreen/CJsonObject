@@ -114,6 +114,7 @@ int main()
 	(*jsonObj).Get("refresh_interval", value);
 	std::cout << "refresh interval : " << value << std::endl;
 	cout<<"test0:"<<(*jsonObj)["test"][0]("test0")<<endl;
+	cout<<"sample0:"<<(*jsonObj)["sample"](0)<<endl;
 	std::cout << "-------------------------------------------------------------------" << std::endl;
 
 

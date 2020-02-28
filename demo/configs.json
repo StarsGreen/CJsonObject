@@ -7,6 +7,10 @@
 		{"test0":"test-0"},
 		{"test1":"test-1"}
 	],
+	"sample":[
+		"sample-0",
+		"sample-1"
+	],
 	"dynamic_loading":	[{
 			"so_path":	"plugins/User.so",
 			"load":	false,
