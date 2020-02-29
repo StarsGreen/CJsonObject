@@ -115,6 +115,9 @@ int main()
 	std::cout << "refresh interval : " << value << std::endl;
 	cout<<"test0:"<<(*jsonObj)["test"][0]("test0")<<endl;
 	cout<<"sample0:"<<(*jsonObj)["sample"](0)<<endl;
+	int number;
+	(*jsonObj)["test"][0].Get("number",number);
+	cout<<"number :"<<number<<endl;
 	std::cout << "-------------------------------------------------------------------" << std::endl;
 
 
